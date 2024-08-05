@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block content%}
+
+<div class="container">
+    <div class="parrafo1">
+        <h1 class="text-center">Mas informacion</h1>
+        
+            <p class="text-center">Hola buenas tardes usuario de to-do-list-app este apartado daremos 
+                <br>los comunicados diarios sobre el avance de el sitio web de momento tenemos el sitio en mantenimiento <br>
+                puedes comunicarte con los administradores enviando un correo a la direccion Tecuidosecu123@gmail.com <br>
+                o tambien puedes comunicarte con nosotros por medio de nuestras redes sociales <br>
+            </p>
+            <h4 class="text-center" >Dejanos tu comentario en la caja de comentarios</h4>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+            <a class="btn btn-dark btn-sm" style="margin-top: 15px;">Enviar comentario</a>
+            <div class="text-center mt-4">
+                <a href="{%url 'index'%}" class="btn btn-dark btn-sm">Volver a la pagina principal</a>
+            </div>
+    </div>
+</div>
+
+{%endblock%}

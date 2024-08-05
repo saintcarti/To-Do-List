@@ -1,7 +1,38 @@
 {%extends 'base.html'%}
 {%load static%}
-
 {%block content%}
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Bienvenido a la pagina principal de to-do-list-app</h1>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="img-container">
+                <img src="{%static 'img/todo-list-img1.jpg'%}" alt="imagen1" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="img-container">
+                <img src="{%static 'img/todo-list-img2.jpg'%}" alt="imagen2" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="img-container">
+                <img src="{%static 'img/todo-list-img3.jpg'%}" alt="imagen3" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="img-container">
+                <img src="{%static 'img/todo-list-img4.jpg'%}" alt="imagen4" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="" class="btn btn-dark btn-sm">Ver tareas por hacer</a>
+    </div>
+</div>
 
 {%endblock%}
